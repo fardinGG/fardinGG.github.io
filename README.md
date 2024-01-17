@@ -21,14 +21,13 @@ Welcome to the GitHub repository for Fardin Rahman's personal portfolio website!
 - **Typed.js:** Creating a dynamic and engaging typing animation for the welcome message.
 
 🔗 **Useful Links:**
-- [https://fardinGG.github.io](#) *(Replace with your live portfolio URL)*
+- [https://fardinGG.github.io](#) 
 - [Fardin Rahman's GitHub Profile](https://github.com/fardinGG)
 - [Typed.js Library](https://github.com/mattboldt/typed.js/)
 
 Feel free to explore the code, contribute, or use it as a reference for your own portfolio. If you have any questions or suggestions, please don't hesitate to reach out!
 
 ✉️ **Contact:**
-- Email: [fardin.rahman@torontomu.ca](mailto:fardin.rahman@torontomu.ca)
 - LinkedIn: [Fardin Rahman](https://www.linkedin.com/in/mfardinrahman/)
 - GitHub: [fardinGG](https://github.com/fardinGG)
 
