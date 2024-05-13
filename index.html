@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Portfolio.css">
+    <title>Fardin's World!</title>
+    <link rel="icon" href="images/BG_Mobile.JPEG" type="image/icon type">
+    <script src="https://kit.fontawesome.com/ba27fbaa42.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.PNG" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p><span class="auto-type">Hello Everyone</span></p>
+                <h1>Hi, I'm <span>Fardin</span> Rahman <br> from TMU</h1>
+            </div>
+
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user2.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I am Fardin. As a versatile and  skilled Computer Science student at Toronto Metropolitan University, I bring a wealth of expertise in Python, Bash, and Java programming languages, along with proficiency in front-end development using HTML, CSS, and JavaScript. With a strong understanding of SDLC methodologies and excellent communication skills, both written and verbal, I thrive in collaborating with clients and stakeholders to deliver efficient and persuasive solutions. My extensive experience in Microsoft Office 365, Jira, Git, and Confluence further enhances my ability to navigate complex projects. With a passion for problem-solving and a track record of successful project delivery, I am dedicated to crafting user-friendly interfaces and developing clean, scalable code.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div id="skills" class="tab-contents active-tab">
+                        <ul>
+                            <li><span>Proficiency in Programming Language</span><br>Python, Java, Bash, SmallTalk, Elixir, Haskell, Rust</li>
+                             <li><span>Expertise in Software Development, management and documentation</span><br>Software Development Life Cycle(SDLC) and its methodologies (Waterfall, Scrum, Agile)</li>
+                            <li><span>Excellent skills in Front-end Web Development</span><br>HTML, CSS, JavaScript, PHP</li>
+                            <li><span>Excellent knowledge about databases and SQL</span><br>Relational Database Management System (RDBMS) and MYSQL</li>
+                            <li><span>5+ Years Proficiency in Microsoft Offfice 365 and Google Suites</span><br>MS Word, MS Excel, MS Access, Visio, Sharepoint, Visual Basics, MS Outlook </li>
+                            <li><span>Basic knowledge about Frameworks from Projects</span><br>ReactJS, NodeJS, Flask</li>
+                            <li><span>Basic knowledge in Ticketing/Defect Tracking System</span><br>JIRA, GIT, Confluence</li>
+
+                        </ul>
+                    </div>
+
+                    <div id="experience" class="tab-contents">
+                        <ul>
+                            <li><span>05/2023-Present, 06/2022-08/2022</span><br>Guest Service Agent at Toronto Metropolitan University Housing</li>
+                            <li><span>12/2022-04/2022</span><br>Campus Ambassador for HelloFresh</li>
+                            <li><span>09/2022-05/2023</span><br>Sales Associate at Winners International L.P.</li>
+                        </ul>
+                    </div>
+                    <div id="education" class="tab-contents">
+                        <ul>
+                            <li><span>2021-Present</span><br>Bachelor's in Computer Science from Toronto Metropolitan University,Toronto,ON</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Programming and Coding</h2>
+                    <p>Knowledge in various coding languages which includes python, C/C++, Java etc.</p>
+                    <a href="https://github.com/fardinGG?tab=repositories">Learn more</a>
+                </div>
+                
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Good knowledge in HTML5, CSS, Javascript and hosting websites.</p>
+                    <a href="https://github.com/fardinGG?tab=repositories">Learn more</a>
+                </div>
+                
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Software Development</h2>
+                    <p>Check my Github for some of my projects regarding Software Development and its documentation</p>
+                    <a href="https://github.com/fardinGG?tab=repositories">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/ig.png" alt="">
+                    <div class="layer">
+                        <h3>Reservify</h3>
+                        <p>Reservify is a ReactJS web app simplifying appointment management. Users input details, choose dates, and set times for reservations. It generates .ics files for easy calendar integration. With an intuitive interface, Reservify ensures efficient scheduling for a seamless user experience.</p>
+                        <a href="https://fardinGG.github.io/reservify"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Hacker22.jpg" alt="">
+                    <div class="layer">
+                        <h3>T Bank Application</h3>
+                        <p>This application is an online banking application developed to maintain daily transactions and other banking essentials.</p>
+                        <a href="https://github.com/fardinGG/TBankApp"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>E-Commerce System Simulator</h3>
+                        <p>This Program stimulates to sells various types of products to registered customers similar to reknowned online shopping sites. View it in GitHub.</p>
+                        <a href="https://github.com/fardinGG/E-commerce-System-Simulator"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+            <a href="https://github.com/fardinGG?tab=repositories" class="btn">See more</a>
+
+        </div>
+    </div>
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><a href="mailto:fardin.rahman@torontomu.ca"><i class="fa-sharp fa-solid fa-paper-plane"></i>fardin.rahman@torontomu.ca</a></p>
+                    <p><i class="fa-solid fa-phone"></i>437-XXX-XXXX</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/mfardinrahman/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/fardinGG" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/fardin_rman/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/fardin.rman/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="MyResume.pdf" download class="btn btn2">Download My Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © by Fardin Rahman.</p>
+        </div>
+    </div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>  
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script> 
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxWrUnrzlymqh9GLuAfaNBGxNBoad9eGXWwqW2iKr8qc1M62OQyUW4_bi7XVf302Zfe/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typed = new Typed(".auto-type",{
+        strings: ["Hi","Bonjour à tous","Hola a todos","مرحبا جميعا","सभी को नमस्कार"],
+        typeSpeed:150,
+        backSpeed:150,
+        loop:true
+    })
+</script>
+</body>
+</html>
